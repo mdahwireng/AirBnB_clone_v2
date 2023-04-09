@@ -1,5 +1,6 @@
-# Puppet for setup
+# AirBnB clone web server setup and configuration
 
+# STILL WORKING ON THIS SCRIPT---
 $nginx_conf = "server {
     listen 80 default_server;
     listen [::]:80 default_server;
@@ -11,7 +12,7 @@ $nginx_conf = "server {
         index index.html index.htm;
     }
     location /redirect_me {
-        return 301 http://linktr.ee/firdaus_h_salim/;
+        return 301 http://facebook.com/printolab/;
     }
     error_page 404 /404.html;
     location /404 {
